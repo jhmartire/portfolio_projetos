@@ -20,6 +20,48 @@
 				height: auto;
 				display: block;
 			}
+			
+			/* Estilo para o rodapé */
+			#footer {
+				padding: 3em 0;
+				background-color: #f5f5f5;
+				border-top: 1px solid #e0e0e0;
+				margin-top: 2em;
+			}
+			
+			.contact-info {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				gap: 2em;
+			}
+			
+			.contact-info .contact-section {
+				flex: 1;
+				min-width: 250px;
+			}
+			
+			.copyright {
+				margin-top: 2em;
+				text-align: center;
+				color: #888;
+				font-size: 0.9em;
+			}
+			
+			.social-icons {
+				font-size: 1.5em;
+				margin-top: 1em;
+			}
+			
+			.social-icons a {
+				margin-right: 1em;
+				color: #555;
+				transition: color 0.3s ease;
+			}
+			
+			.social-icons a:hover {
+				color: #f56a6a;
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -30,9 +72,9 @@
 					<header id="header">
 						<a href="index.html" class="logo"><strong>Data Science</strong> Project Portfolio</a>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+							<li><a href="https://www.linkedin.com/in/joao-m-97410056" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/jhmartire" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://medium.com/@joaomartire" target="_blank" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
 						</ul>
 					</header>
 
@@ -227,6 +269,47 @@
 									<li><a href="https://app.powerbi.com/view?r=eyJrIjoiZmEyMWIwYWQtODEzYi00MzEyLTliOTctNGEzMThkM2FhMWQ4IiwidCI6ImQ0MTJhNzkzLTlhNjQtNGNlMS04MWJjLTg4Zjk2NmQ3NmFkMCJ9" class="button">View Dashboard</a></li>
 								</ul>
 							</article>
+						</div>
+					</section>
+
+					<!-- Footer/Contact Section -->
+					<section id="footer">
+						<div class="inner">
+							<header class="major">
+								<h2>Let's Connect</h2>
+							</header>
+							<div class="contact-info">
+								<div class="contact-section">
+									<h3>Contact Information</h3>
+									<p>I'm always open to new opportunities and collaborations in the field of Data Science. Feel free to reach out for projects, consulting, or just to connect!</p>
+									<p><strong>Email:</strong> <a href="mailto:jhmartireuk@gmail.com">jhmartireuk@gmail.com</a></p>
+									<p><strong>Location:</strong> London, United Kingdom</p>
+								</div>
+								
+								<div class="contact-section">
+									<h3>Professional Platforms</h3>
+									<p>Check out my work and connect with me on professional platforms:</p>
+									<div class="social-icons">
+										<a href="https://www.linkedin.com/in/joao-m-97410056" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a>
+										<a href="https://github.com/jhmartire" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a>
+										<a href="https://medium.com/@joaomartire" target="_blank" class="icon brands fa-medium-m"><span class="label">Medium</span></a>
+									</div>
+								</div>
+								
+								<div class="contact-section">
+									<h3>Available For</h3>
+									<ul>
+										<li>Full-time Data Scientist roles</li>
+										<li>Contract & Freelance Data Projects</li>
+										<li>Consulting & Advisory</li>
+										<li>Tech Talks & Webinars</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="copyright">
+								<p>&copy; 2025 João Martire. All rights reserved. | Data Science Portfolio</p>
+							</div>
 						</div>
 					</section>
 				</div>
